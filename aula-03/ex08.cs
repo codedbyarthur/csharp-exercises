@@ -1,0 +1,12 @@
+using System;
+
+class Program {
+    static void Main() {
+        int numero = int.Parse(Console.ReadLine());
+        if (numero >= 0) {
+            Console.WriteLine("Positivo");
+        } else {
+            Console.WriteLine("Negativo");
+        }
+    }
+}
